@@ -1,0 +1,65 @@
+/*
+ * Codes for Dream Lab
+ * 
+ */
+ 
+/* General */
+header, footer, nav { display: block; }
+.wrap { width: 980px; margin: 0 auto; }
+ 
+/* header */
+header { font-size: 16px; line-height: 24px; font-weight: normal; color: #222; }
+#dlhd { background: #f1f1f1; }
+#dl-header { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; min-width: 952px; width: auto !important; position: relative; background: #f1f1f1; border-bottom: 1px solid #e5e5e5; height: 77px; margin: 0; overflow: hidden; padding: 24px 0px; color: rgba(255,255,255,.5); }
+#dl-logo { display: block; height: 37px; vertical-align: top; text-decoration: none; position: absolute; }
+	#dl-logo img { width: 200px; vertical-align: top; top: -12px; left: 5px; position: relative; }
+#dl-header .dl-social { float: right; font-size: 12px; margin-top: -1px; }
+	#dl-header .dl-social p { padding: 6px 8px 0px 0px; }
+	#dl-header .dl-social img { vertical-align: middle; border: 1px solid #acacac; margin-left: 8px; border-radius: 2px; -webkit-border-radius: 2px; }
+	#dl-header .dl-social .logout { padding-left: 4px; }
+#dl-header .signed-in>div { float: left; height: 30px; }
+#dl-header .signed-in img { width: 30px; height: 30px; }
+#dl-header .signed-in a { text-align: right; line-height: 30px; color: #808080; }
+#dl-header .signed-in a { text-decoration: none; }
+#userpanel_menu .header_poh .popup_avt { margin-right: 12px; }
+	#userpanel_menu .header_poh .popup_avt img { height: 98px; width: 98px; outline: none; }
+.upa { display: inline !important; }
+.upa a:hover{ text-decoration:underline !important; }
+.avt.showmenu a img { width:36px; height:36px; background:none; border-radius: 3px; border:none; }
+.up .avatar a { position: relative; }
+.ie6 .avatar a { float: left; }
+.up .avatar a:hover { text-decoration: none; }
+.up .avatar a span { bottom: 4px; left: 4px; width: 98px; cursor: pointer; display: none; padding: 2px 0; position: absolute; text-align: center; color:#fff; font-size:12px; }
+#edit_avt:focus { outline: none; }
+#edit_avt_tar { background: rgba(77, 145, 255,.7); transition: background-color .218s ease-in-out; -webkit-transition: background-color .218s ease-in-out; -o-transition: background-color .218s ease-in-out; -moz-transition: background-color .218s ease-in-out; }
+.up .avatar a:hover span { display: block; }
+.up .avatar img { border: 1px solid #EEEEEE; padding: 3px; }
+.hp_username { font-weight: bold; }
+.hp_email { color: #999 !important; }
+.hp_vp { background-color: #4d90fe; background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed); background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed)); background-image: -moz-linear-gradient(top,#4d90fe,#4787ed); background-image: -ms-linear-gradient(top,#4d90fe,#4787ed); background-image: -o-linear-gradient(top,#4d90fe,#4787ed); background-image: linear-gradient(top,#4d90fe,#4787ed); filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4d90fe',EndColorStr='#4787ed'); border: 1px solid #3079ed; color: #fff !important; margin: 0; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; text-align: center; text-decoration: none; padding: 0 8px; min-width: 54px; height: 29px; line-height: 29px; display: inline-block; }
+	.hp_vpi { margin-top: 13px; }
+
+/* Navigations */
+#dl-topnav, #dl-appnav { overflow: hidden; clear: both; padding: 0 44px; }
+#dl-topnav { font-size: 14px; background: #444; }
+#dl-topnav>div { line-height: 39px; }
+	#dl-topnav>div ul { margin: 0; padding: 0; border: 0; overflow: hidden; }
+	#dl-topnav>div ul li { list-style-image: none; list-style-type: none; margin-left: 0; white-space: nowrap; display: inline; float: left; padding-left: 4px; padding-right: 4px; }
+	#dl-topnav>div li { padding: 0; }
+	#dl-topnav li { margin: 0 30px 0 0; }
+	#dl-topnav li.a, #dl-topnav li.active { background: url("{IMGDIR}/topnav_uparrow.png") no-repeat scroll center 33px transparent; }
+	#dl-topnav li a { font-weight: bold; color: #fff; text-decoration: none; }
+		#dl-topnav li a span { display: none; }
+	#dl-topnav .fz { float: left; max-width: 680px; overflow: hidden; }
+	#dl-topnav .fy { float: right; max-width: 300px; overflow: hidden; }
+
+/* Pop-up menu */
+.showmenu { cursor: pointer; white-space: nowrap; }
+.header_pop { width: 380px; background-color: #f5f5f5; border: 1px solid rgba(209,209,209,1); box-shadow: 0 2px 4px rgba(0,0,0,.2); margin-top: 8px; }
+	.header_pop ul li { margin-bottom: 4px; }
+.header_poh { box-shadow: 0 2px 4px rgba(0,0,0,.12); -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.12); -moz-box-shadow: 0 2px 4px rgba(0,0,0,.12); -o-box-shadow: 0 2px 4px rgba(0,0,0,.12); height: 120px; border-bottom: 1px solid #bdbdbd; background-color: #fff; padding: 21px 20px 0px; }
+.header_pof { clear: both; height: 43px; padding: 0 20px; }
+
+/* Mixed elements */
+#scbar_txt { transition: all 0.80s ease-in-out; -webkit-transition: all 0.80s ease-in-out; -moz-transition: all 0.80s ease-in-out; -o-transition: all 0.80s ease-in-out; }
+.scbar_btn_style { transition: all .4s; -webkit-transition: all .4s; -moz-transition: all .4s; -o-transition: all .4s; }
